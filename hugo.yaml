@@ -1,0 +1,112 @@
+baseurl: https://lucasdarie.github.io/
+title: "Lucas Darie"
+theme: ["PaperMod"]
+
+locale: en
+defaultcontentlanguage: en
+defaultContentLanguageInSubdir: false
+disableDefaultLanguageRedirect: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+pagination:
+  pagerSize: 20
+params:
+  defaultTheme: dark
+  author: "Lucas Darie"
+  keywords: [developer, portfolio]
+  
+  enableTwemoji: true
+  colorScheme: auto
+  hidecolorschemetoggle: false
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+
+  assets:
+    favicon: "favicon/favicon.ico"
+    favicon16x16: "favicon/favicon-16x16.png"
+    favicon32x32: "favicon/favicon-32x32.png"
+    apple_touch_icon: "favicon/apple-touch-icon.png"
+    safari_pinned_tab: "favicon/apple-touch-icon.png"
+
+  profileMode:
+    enabled: true
+    title: Lucas Darie
+    subtitle: Full Stack engineer
+    imageUrl: "home/profile_picture_LD.jpg"
+    imageWidth: 250
+    imageHeight: 250
+    imageTitle: me
+
+  socialIcons:
+    - name: github
+      weight: 1
+      url: https://github.com/LucasDarie/
+    - name: linkedin
+      weight: 2
+      url: https://www.linkedin.com/in/lucasdarie/
+caches:
+  images:
+    dir: :cacheDir/images
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+  author: authors
+
+
+menu:
+  main:
+    - name: Projects
+      weight: 1
+      url: projects/
+    - name: Experiences
+      weight: 2
+      url: experiences/
+
+languages:
+  en:
+    disabled: false
+    label: English
+    locale: en
+    weight: 1
+
+  fr:
+    disabled: false
+    label: Français
+    locale: fr
+    weight: 2
+    params:
+      info: Développeur Full Stack
+      description: Site web de Lucas Darie
+      profileMode:
+        subtitle: Ingénieur Full Stack
+    menu:
+      main:
+        - name: Projets
+          weight: 1
+          url: projects/
+        - name: Expériences
+          weight: 2
+          url: experiences/
+
+  se:
+    disabled: true
+    label: Svenska
+    locale: se
+    weight: 3

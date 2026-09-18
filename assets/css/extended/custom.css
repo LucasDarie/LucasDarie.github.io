@@ -1,0 +1,17 @@
+.post-devider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch; /* default, but explicit here for clarity */
+}
+
+.post-devider:has(+ figure) {
+    margin-bottom: 1em; /* or whatever margin you need */
+}
+
+.post-thumbnail {
+    max-height: 90px;
+    max-width: 180px;
+    object-fit: contain; /* keeps aspect ratio, avoids distortion */
+    min-height: 0;
+}

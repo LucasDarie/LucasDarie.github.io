@@ -1,0 +1,6 @@
+{{- if .IsTranslated -}}
+    {{- if (ne .Layout "search") }}
+        {{- if or (.Param "dateString") (.Param "ShowReadingTime") (not .Date.IsZero) }}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
