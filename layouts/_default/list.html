@@ -83,7 +83,9 @@
     </div>
     {{- $thumbnail := (.Params.thumbnail) }}
     {{- if $thumbnail -}}
-    <img class="post-thumbnail" src="{{$thumbnail.image  | absURL}}" />
+    <div class="post-thumbnail-container">
+      <img class="post-thumbnail" src="{{$thumbnail.image  | absURL}}" />
+    </div>
     {{- end -}}
   </div>
   {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}

@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch; /* default, but explicit here for clarity */
+    gap:5px
 }
 
 .post-devider:has(+ figure) {
@@ -11,7 +12,31 @@
 
 .post-thumbnail {
     max-height: 90px;
-    max-width: 180px;
+    max-width: 160px;
     object-fit: contain; /* keeps aspect ratio, avoids distortion */
     min-height: 0;
+}
+
+.post-thumbnail-container {
+    align-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .post-thumbnail {
+        max-width: 120px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .post-thumbnail {
+        max-width: 160px;
+        max-height: 75px;
+    }
+    .post-devider {
+        flex-direction: column;
+        gap:5px
+    }
+    .post-thumbnail-container {
+        align-self: flex-end;
+    }
 }
