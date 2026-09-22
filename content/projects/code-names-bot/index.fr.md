@@ -1,6 +1,6 @@
 ---
-title: 'Code Names - Discord bot'
-description: 'Application permettant de jouer au jeu de société Code Names sur discord avec ses amis'
+title: 'Code Names - Bot Discord'
+description: 'Projet personnel - Jouer au jeu de société Code Names sur discord avec ses amis'
 dateString: February 2023 - July 2023
 draft: false
 showToc: false

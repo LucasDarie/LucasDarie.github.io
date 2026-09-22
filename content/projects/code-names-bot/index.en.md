@@ -1,6 +1,6 @@
 ---
 title: 'Code Names - Discord bot'
-description: 'A bot that lets you play Code Names on Discord with your friends'
+description: 'Personnal project - Play Code Names on Discord with your friends'
 dateString: February 2023 - July 2023
 draft: false
 showToc: false

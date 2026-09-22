@@ -1,6 +1,6 @@
 ---
-title: 'Hælldora - Bot Discord de cartes à collectionner'
-description: "Bot permettant d'ouvrir des boosters pour collecter des cartes uniques"
+title: 'Hælldora - Bot Discord'
+description: "Projet personnel - Application pour collectionner plus de 150 cartes uniques"
 dateString: Mars 2026 - Aujourd'hui
 draft: false
 showToc: false

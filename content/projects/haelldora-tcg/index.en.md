@@ -1,6 +1,6 @@
 ---
-title: 'Hælldora - Trading Card Discord bot'
-description: 'A bot that lets you open booster packs and collect unique cards'
+title: 'Hælldora - Discord bot'
+description: 'Personnal project - Trading Card Game to collect more than 150 cards'
 dateString: Mars 2026 - Present
 draft: false
 showToc: false
