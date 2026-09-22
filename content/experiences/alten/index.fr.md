@@ -12,4 +12,4 @@ thumbnail:
 ---
 
 
-### Dévelopement d'un software Windows en ReactJs et Python
+### Développement d'un software Windows en ReactJs et Python
